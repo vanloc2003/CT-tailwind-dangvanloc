@@ -221,11 +221,10 @@
           <img class="w-full bg-contain" src="./img/sells-by-country.png" alt="" />
         </div>
       </div>
-      <div class="items_content mx- flex justify-center items-center mx-36">
-        <div>
-          <img class="w-full bg-contain mb-10" src="./img/collaboration.png" alt="" />
-        </div>
-        <div class="ml-2">
+      <div class="items_content mx- flex justify-center items-center mx-36 relative">
+        <img class="bg-contain mr-5" src="./img/collaboration.png" alt="" />
+        <img class="img__position" src="./img/shape.png" alt="">
+        <div class="ml-10">
           <h1 class="text-4xl font-medium leading-tight mb-4">
             Accept payments any <br />
             country in this whole <br />
@@ -255,7 +254,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 mx-36 pt-10">
+      <div class="grid grid-cols-2 mx-36 pt-20">
         <div class="ml-20">
           <h1 class="text-4xl font-medium leading-tight mb-5">
             Accountability that <br>
@@ -272,10 +271,11 @@
           </button>
         </div>
 
-        <div class="w-10/12">
+        <div class="w-10/12 relative">
           <video class="" controls poster="./img/intro-thumbnail.png">
             <source src="./img/video.mp4" type="video/mp4" />
           </video>
+          <img class="video__position" src="./img/shape.png" alt="">
         </div>
       </div>
   </section>
@@ -440,7 +440,6 @@
     $('.cards').slick({
       slidesToShow: 3,
       slidesTocScroll: 1,
-      
     });
   });
   </script>
