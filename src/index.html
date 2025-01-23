@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- ft awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slick -->
+  <link rel="stylesheet" href="../lib/slick/slick.css">
+  <link rel="stylesheet" href="../lib/slick/slick-theme.css">
+  <!-- css -->
+   <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./output.css" />
+</head>
+
+<body class="bg-zinc-50 bg-bg-pattern bg-cover -z-[100] absolute">
+  <header class="bg-transparent">
+    <nav class="mx-36 navbar flex flex-wrap items-center justify-between py-6 text-xm">
+      <!-- logo -->
+      <div class="">
+        <a href="">
+          <img src="../img/logo.svg" alt="" />
+        </a>
+      </div>
+      <!-- nav menu -->
+      <ul class="nav_menu flex">
+        <li class="nav_item hover:text-orange-600">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">About</a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">Blog</a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">Features</a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">How It Works</a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">Pages <i class="fa-solid fa-chevron-down text-xs"></i></a>
+        </li>
+        <li class="nav_item ml-8 hover:text-orange-600">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <button type="button"
+        class="shadow-lg py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+        Sing Up Now
+      </button>
+    </nav>
+  </header>
+  <section id="banner relative">
+    <img src="../img/banner-shape.png" alt="" class="absolute right-0 -z-[1] -top-24" />
+    <div class="container flex items-center justify-center py-16">
+      <div class="">
+        <h1 class="text-5xl font-medium leading-tight mb-5">
+          Scale design & dev <br />
+          operations with <br />
+          Avocode Enterprise
+        </h1>
+        <p class="mb-5 text-lg text-slate-400">
+          A fully integrated suite of authentication & authoriz products,
+          Stytch’s <br />
+          platform removes the headache of.
+        </p>
+        <button type="button"
+          class="shadow-lg py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+          Download The Theme
+        </button>
+      </div>
+      <div class="relative">
+        <img class="w-full bg-contain h-96" src="../img/banner-img.png" alt="" />
+      </div>
+    </div>
+    <img src="../img/shape.png" alt="" class="absolute -left-12" />
+  </section>
+  <section id="feature relative">
+    <div class="container pt-20">
+      <div class="flex justify-center items-center">
+        <h1 class="text-5xl font-medium mr-48">
+          The Highlighting Part <br />
+          Of Our Solution
+        </h1>
+        <p class="text-lg text-slate-400">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
+          Morbi egestas Werat viverra id et aliquet. vulputate <br />
+          egestas sollicitudin .
+        </p>
+      </div>
+      <div class="mt-10 grid grid-cols-4 gap-4 mx-36">
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Live Caption</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-desktop text-lg text-pink-500"></i>
+        </div>
+
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Smart Reply</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-thumbtack text-lg text-pink-500"></i>
+        </div>
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Sound Amplifier</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-regular fa-bell text-lg text-pink-500"></i>
+        </div>
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Gesture Naviga...</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-arrow-pointer text-lg text-pink-500"></i>
+        </div>
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Dark Theme</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-regular fa-lightbulb text-lg text-pink-500"></i>
+        </div>
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Privacy Controls</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-angles-right text-lg text-pink-500"></i>
+        </div>
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Location Controls</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-location-dot text-lg text-pink-500"></i>
+        </div>
+
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Security Updates</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-lock text-lg text-pink-500"></i>
+        </div>
+
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Focus Mode</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-arrows-to-eye text-lg text-pink-500"></i>
+        </div>
+
+        <div class="mr-12 p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <h3 class="text-2xl font-medium mb-3">Family Link</h3>
+          <p class="text-slate-400 mb-2">
+            Lorem ipsum dolor sit amet <br />
+            consectetur, adipisicing elit.
+          </p>
+          <i class="fa-solid fa-link text-lg text-pink-500"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="container pt-28">
+      <div class="items_content mx- flex justify-center items-center mx-36">
+        <div class="mr-5">
+          <h1 class="text-4xl font-medium leading-tight mb-4">
+            Prevent failure from <br />
+            to impacting your <br />
+            reputation
+          </h1>
+          <p class="mb-5 text-lg text-slate-400">
+            Our platform helps you build secure onboarding <br />
+            authentication experiences that retain and engage <br />
+            your users. We build the infrastructure, you can.
+          </p>
+
+          <div class="overview text-lg">
+            <p class="p-1 bg-red-300 rounded mb-2">
+              <i class="fa-solid fa-droplet text-orange-500"></i>
+              Habit building essential choose habit.
+            </p>
+            <p class="hover:bg-red-300 hover:rounded mb-2 p-1">
+              <i class="fa-solid fa-shield hover:rounded text-orange-500"></i>
+              Get an overview of Habit Calendars.
+            </p>
+            <p class="hover:bg-red-300 hover:rounded mb-2 p-1">
+              <i class="fa-solid fa-hourglass-half text-orange-500"></i>
+              Start building with Habitify platform.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img class="w-full bg-contain" src="../img/sells-by-country.png" alt="" />
+        </div>
+      </div>
+      <div class="items_content mx- flex justify-center items-center mx-36">
+        <div>
+          <img class="w-full bg-contain mb-10" src="../img/collaboration.png" alt="" />
+        </div>
+        <div class="ml-2">
+          <h1 class="text-4xl font-medium leading-tight mb-4">
+            Accept payments any <br />
+            country in this whole <br />
+            universe
+          </h1>
+
+          <p class="mb-5 text-lg text-slate-400">
+            Donec sollicitudin molestie malesda. Donec <br />
+            sollitudin molestie malesuada. Mauris pellentesque <br />
+            nec, egestas non nisi. Cras ultricies ligula sed
+          </p>
+
+          <div class="overview text-lg">
+            <p class="mb-3">
+              <i class="fa-solid fa-check text-white bg-orange-500 rounded-xl p-1"></i>
+              Supporting more than 119 country world
+            </p>
+            <p class="mb-3">
+              <i class="fa-solid fa-check text-white bg-orange-500 rounded-xl p-1"></i>
+              Open transaction with more than currencies
+            </p>
+            <p class="mb-3">
+              <i class="fa-solid fa-check text-white bg-orange-500 rounded-xl p-1"></i>
+              Customer Service with 79 languages
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 mx-36 pt-10">
+        <div class="ml-20">
+          <h1 class="text-4xl font-medium leading-tight mb-5">
+            Accountability that <br>
+            works for you
+          </h1>
+          <p class="mb-5 text-lg text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+            elit. Morbi egestas Werat viverra id et aliquet. <br>
+            vulputate egestas sollicitudin .
+          </p>
+          <button type="button"
+            class="shadow-lg py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+            Know About Us
+          </button>
+        </div>
+
+        <div class="w-10/12">
+          <video class="" controls poster="../img/intro-thumbnail.png">
+            <source src="../img/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+  </section>
+  <section id="reviews">
+    <div class="container pt-20">
+      <div class="flex justify-center items-center">
+        <h1 class="text-4xl font-medium leading-tight mb-5">Our customers have nice <br> things to say about us</h1>
+        <p class="mb-5 text-lg text-slate-400 ml-96">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Morbi
+          egestas Werat viverra id <br> et aliquet. vulputate egestas sollicitudin .</p>
+      </div>
+      <div class="cards flex justify-center items-center mt-20">
+        <div
+          class="card_item mr-6 flex flex-col text-center justify-center items-center p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <img src="../img/user-1.png" alt="" class="card_avatar w-20 z-10">
+          <h2 class="text-2xl font-medium leading-tight mb-5 mt-5">Courtney Henry</h2>
+          <p class="mb-5 text-lg">Microsoft Corp</p>
+          <p class="text-base text-slate-400 mb-5">
+            Our platform helps build secure onboarding <br> authentica
+            experiences & engage your <br> users. We build .
+          </p>
+          <div class="text-lg">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+
+        <div
+          class="card_item relative mr-6 flex flex-col text-center justify-center items-center p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <img src="../img/user-2.png" alt="" class=" w-20">
+          <h2 class="text-2xl font-medium leading-tight mb-5 mt-5">Bessie Cooper</h2>
+          <p class="mb-5 text-lg">Apple Inc Ltd</p>
+          <p class="text-base text-slate-400 mb-5">
+            Our platform helps build secure onboarding <br> authentica
+            experiences & engage your <br> users. We build .
+          </p>
+          <div class="text-lg">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+
+        <div
+          class="card_item relative mr-6 flex flex-col text-center justify-center items-center p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <img src="../img/user-3.png" alt="" class=" w-20">
+          <h2 class="text-2xl font-medium leading-tight mb-5 mt-5">Ronald Richards</h2>
+          <p class="mb-5 text-lg">Meta Limited</p>
+          <p class="text-base text-slate-400 mb-5">
+            Our platform helps build secure onboarding <br> authentica
+            experiences & engage your <br> users. We build .
+          </p>
+          <div class="text-lg">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+
+        <div
+          class="card_item relative mr-6 flex flex-col text-center justify-center items-center p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <img src="../img/user-1.png" alt="" class=" w-20">
+          <h2 class="text-2xl font-medium leading-tight mb-5 mt-5">Courtney Henry</h2>
+          <p class="mb-5 text-lg">Microsoft Corp</p>
+          <p class="text-base text-slate-400 mb-5">
+            Our platform helps build secure onboarding <br> authentica
+            experiences & engage your <br> users. We build .
+          </p>
+          <div class="text-lg">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+
+        <div
+          class="card_item relative mr-6 flex flex-col text-center justify-center items-center p-6 shadow-[0px_0px_50px_1px_rgba(17,_12,_46,_0.15)]">
+          <img src="../img/user-1.png" alt="" class=" w-20">
+          <h2 class="text-2xl font-medium leading-tight mb-5 mt-5">Courtney Henry</h2>
+          <p class="mb-5 text-lg">Microsoft Corp</p>
+          <p class="text-base text-slate-400 mb-5">
+            Our platform helps build secure onboarding <br> authentica
+            experiences & engage your <br> users. We build .
+          </p>
+          <div class="text-lg">
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-solid fa-star text-yellow-400"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <section id="deployment">
+    <div class="flex mx-36 justify-center items-center mt-20 mb-20 bg-gradient-to-r from-rose-400 to-yellow-400 bg-[length:200%] h-64 rounded-t-3xl rounded-b-[80px]">
+      <div class="mr-96">
+        <h1 class="text-4xl text-white font-medium leading-tight mb-5">Helping teams in the <br> world with focus</h1>
+        <button type="button"
+          class="shadow-lg py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+          Know About Us
+        </button>
+      </div>
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Morbi egestas Werat viverra id et <br> aliquet.
+        vulputate egestas sollicitudin.</p>
+    </div>
+  </section>
+  <footer>
+    <div class="container bg-zinc-200">
+      <div class="flex justify-around items-center p-20">
+        <div class="">
+          <img src="../img/logo.svg" alt="" class="mb-3">
+          <p class="text-base text-slate-500">Lorem ipsum dolor sit sed dmi amet, <br>
+            consectetur adipiscing. Cdo tellus,<br>
+            sed condimentum volutpat.</p>
+        </div>
+        <div class="">
+          <h2 class="font-medium text-xl mb-3">Socials.com</h2>
+          <p><i class="fa-brands fa-facebook mr-2 text-slate-500"></i>Facebook.com</p>
+          <p><i class="fa-brands fa-linkedin mr-2 text-slate-500"></i>
+            Linkedin.com
+          </p>
+          <p><i class="fa-solid fa-phone mr-2 text-slate-500"></i>Telephone.com</p>
+          <p><i class="fa-brands fa-github mr-2 text-slate-500"></i>Github.com</p>
+        </div>
+        <div class="">
+          <h2 class="font-medium text-xl mb-3">Quick Links</h2>
+          <a href="#" class="block text-slate-500 hover:text-orange-400"><span>About</span></a>
+          <a href="#" class="block text-slate-500 hover:text-orange-400"><span>Category</span></a>
+          <a href="#" class="block text-slate-500 hover:text-orange-400"><span>Testimonial</span></a>
+          <a href="#" class="block text-slate-500 hover:text-orange-400"><span>Contact</span></a>
+        </div>
+        <div class="">
+          <h2 class="font-medium text-xl mb-3">Location & Contact</h2>
+          <p class="text-slate-500">
+            2118 Thornridge Cir. Syracuse,<br>
+             Connecticut 35624 <br>
+             <p class="text-slate-500">Call: <br>
+              <a href="#" class="hover:text-orange-400">(704) 555-0127</a>
+             </p>
+            
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- slick -->
+   <script>
+   $(document).ready(function(){
+    $('.cards').slick({
+      slidesToShow: 3,
+      slidesTocScroll: 1,
+      
+    });
+  });
+  </script>
+  <script src="../lib/slick/slick.min.js"></script>
+</body>
+
+</html>
