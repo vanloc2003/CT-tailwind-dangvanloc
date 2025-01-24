@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- slick -->
+  <!-- slick -->
   <!-- <link rel="stylesheet" href="../lib/slick/slick.css"> -->
   <link rel="stylesheet" href="./lib/slick/slick.css">
   <!-- <link rel="stylesheet" href="../lib/slick/slick-theme.css"> -->
   <link rel="stylesheet" href="./lib/slick/slick-theme.css">
   <!-- css -->
-   <!-- <link rel="stylesheet" href="./main.css"> -->
-   <link rel="stylesheet" href="./src/main.css">
+  <!-- <link rel="stylesheet" href="./main.css"> -->
+  <link rel="stylesheet" href="./src/main.css">
   <!-- <link rel="stylesheet" href="./output.css" /> -->
   <link rel="stylesheet" href="./src/output.css">
 </head>
@@ -48,8 +48,21 @@
         <li class="nav_item ml-8 hover:text-orange-600">
           <a href="#">How It Works</a>
         </li>
-        <li class="nav_item ml-8 hover:text-orange-600">
-          <a href="#">Pages <i class="fa-solid fa-chevron-down text-xs"></i></a>
+        <li class="nav_item_page ml-8 relative">
+          <a href="#">Pages
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+            <div class="pattern_model">
+              <ul class="model_items">
+                <li class="item_model">Career</li>
+                <li class="item_model">Career Single</li>
+                <li class="item_model">Integrations</li>
+                <li class="item_model">Integration Single</li>
+                <li class="item_model">Pricing</li>
+                <li class="item_model">Changelogs</li>
+                <li class="item_model">Terms & Conditions</li>
+              </ul>
+            </div>
+          </a>
         </li>
         <li class="nav_item ml-8 hover:text-orange-600">
           <a href="#">Contact</a>
@@ -375,12 +388,13 @@
             <i class="fa-solid fa-star text-yellow-400"></i>
             <i class="fa-regular fa-star"></i>
           </div>
-        </div> 
+        </div>
       </div>
     </div>
   </section>
   <section id="deployment">
-    <div class="flex mx-36 justify-center items-center mt-20 mb-20 bg-gradient-to-r from-rose-400 to-yellow-400 bg-[length:200%] h-64 rounded-t-3xl rounded-b-[80px]">
+    <div
+      class="flex mx-36 justify-center items-center mt-20 mb-20 bg-gradient-to-r from-rose-400 to-yellow-400 bg-[length:200%] h-64 rounded-t-3xl rounded-b-[80px]">
       <div class="mr-96">
         <h1 class="text-4xl text-white font-medium leading-tight mb-5">Helping teams in the <br> world with focus</h1>
         <button type="button"
@@ -388,7 +402,8 @@
           Know About Us
         </button>
       </div>
-      <p class="text-white">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Morbi egestas Werat viverra id et <br> aliquet.
+      <p class="text-white">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Morbi egestas Werat viverra id
+        et <br> aliquet.
         vulputate egestas sollicitudin.</p>
     </div>
   </section>
@@ -421,27 +436,29 @@
           <h2 class="font-medium text-xl mb-3">Location & Contact</h2>
           <p class="text-slate-500">
             2118 Thornridge Cir. Syracuse,<br>
-             Connecticut 35624 <br>
-             <p class="text-slate-500">Call: <br>
-              <a href="#" class="hover:text-orange-400">(704) 555-0127</a>
-             </p>
-            
+            Connecticut 35624 <br>
+          <p class="text-slate-500">Call: <br>
+            <a href="#" class="hover:text-orange-400">(704) 555-0127</a>
+          </p>
+
           </p>
         </div>
       </div>
     </div>
   </footer>
-<!-- jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- slick -->
-   <script>
-   $(document).ready(function(){
-    $('.cards').slick({
-      slidesToShow: 3,
-      slidesTocScroll: 1,
+  <script>
+    $(document).ready(function () {
+      $('.cards').slick({
+        slidesToShow: 3,
+        slidesTocScroll: 1,
+      });
     });
-  });
   </script>
   <script src="./lib/slick/slick.min.js"></script>
 </body>

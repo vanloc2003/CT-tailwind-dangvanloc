@@ -43,3 +43,39 @@
     bottom: -30px;
     z-index: -100;
 }
+
+
+/* pattern model */
+
+.pattern_model {
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: absolute;
+    z-index: 1;
+    width: 160px;
+    display: none;
+    transition: all 0.9;
+    border-radius: 3px;
+    border-width: 0.5px;
+    border-color: orangered;
+}
+
+.nav_item_page:hover .pattern_model {
+    display: block;
+    transition: all 0.9;
+}
+
+.nav_item_page:hover {
+    color: orangered;
+}
+
+.item_model {
+    font-size: 15px;
+    margin-bottom: 3px;
+    color: black;
+}
+
+.item_model:hover {
+    color: orangered;
+}
